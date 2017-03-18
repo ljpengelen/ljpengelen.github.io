@@ -88,6 +88,155 @@ however,
 and some discuss or link to quite large applications.&lt;/p&gt;
 
 &lt;h2 id=&#34;evaluation-by-participants&#34;&gt;Evaluation by Participants&lt;/h2&gt;
+
+&lt;p&gt;In total, nine people attended the workshop.
+Some of them worked as software engineers, some of them were students.
+Each of the participants had experience with software development in Java, but none of them had ever worked with the frameworks we tried.&lt;/p&gt;
+
+&lt;p&gt;The participants noted the following general impressions, pros, and cons.
+You&amp;rsquo;ll see that their findings don&amp;rsquo;t always correspond with my own.
+I&amp;rsquo;ve copied the responses of the participants straight from the evaluation forms without rephrasing,
+to ensure that I didn&amp;rsquo;t influence their answers.&lt;/p&gt;
+
+&lt;h2 id=&#34;ninja&#34;&gt;Ninja&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General impressions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy to set up&lt;/li&gt;
+&lt;li&gt;Simple&lt;/li&gt;
+&lt;li&gt;Mature&lt;/li&gt;
+&lt;li&gt;Very specific usage. Many choices made for you&lt;/li&gt;
+&lt;li&gt;Too predetermined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Good documentation&lt;/li&gt;
+&lt;li&gt;If you follow the intended path, you can have results quickly&lt;/li&gt;
+&lt;li&gt;Once you get the structure, it&amp;rsquo;s easy to write a web app&lt;/li&gt;
+&lt;li&gt;Because many choices are made for you, once you read the getting-started guide, you&amp;rsquo;re good to go&lt;/li&gt;
+&lt;li&gt;Uses regular HTML&lt;/li&gt;
+&lt;li&gt;If you use the default path, it&amp;rsquo;s OK&lt;/li&gt;
+&lt;li&gt;Quick for default usage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not easy to learn quickly&lt;/li&gt;
+&lt;li&gt;Router didn&amp;rsquo;t work&lt;/li&gt;
+&lt;li&gt;Verbose&lt;/li&gt;
+&lt;li&gt;Pushes you to a predefined route&lt;/li&gt;
+&lt;li&gt;Very explicit workflow&lt;/li&gt;
+&lt;li&gt;Not easy to debug&lt;/li&gt;
+&lt;li&gt;Could not get it to work&lt;/li&gt;
+&lt;li&gt;Not a lot of documentation available online&lt;/li&gt;
+&lt;li&gt;Harder to get started&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;spark&#34;&gt;Spark&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General impressions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not good&lt;/li&gt;
+&lt;li&gt;Easy to get into&lt;/li&gt;
+&lt;li&gt;Quick to get up and running&lt;/li&gt;
+&lt;li&gt;Not bloated with features&lt;/li&gt;
+&lt;li&gt;Clean&lt;/li&gt;
+&lt;li&gt;Simple to use&lt;/li&gt;
+&lt;li&gt;Light weight&lt;/li&gt;
+&lt;li&gt;Customizable&lt;/li&gt;
+&lt;li&gt;Fast&lt;/li&gt;
+&lt;li&gt;Good&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy to set up&lt;/li&gt;
+&lt;li&gt;Good documentation, tutorials, and samples&lt;/li&gt;
+&lt;li&gt;Lean&lt;/li&gt;
+&lt;li&gt;Flexible&lt;/li&gt;
+&lt;li&gt;Little overhead&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s easy to get started with a simple REST server&lt;/li&gt;
+&lt;li&gt;Simple setup and structure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bad documentation&lt;/li&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;li&gt;Much boilerplate needs to be written&lt;/li&gt;
+&lt;li&gt;Takes more than an hour to set something up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pippo&#34;&gt;Pippo&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General impressions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation is immature and sometimes incorrect&lt;/li&gt;
+&lt;li&gt;Simple when it works&lt;/li&gt;
+&lt;li&gt;Pretty good documentation for such a small framework. Too bad some things were deprecated or abandoned&lt;/li&gt;
+&lt;li&gt;Simple&lt;/li&gt;
+&lt;li&gt;Accessible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simplicity in general&lt;/li&gt;
+&lt;li&gt;Single jar for deployment&lt;/li&gt;
+&lt;li&gt;Runnable in IDE&lt;/li&gt;
+&lt;li&gt;Simple&lt;/li&gt;
+&lt;li&gt;Few dependencies&lt;/li&gt;
+&lt;li&gt;User friendly&lt;/li&gt;
+&lt;li&gt;Very easy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation (incorrect, contains typos and grammatical mistakes)&lt;/li&gt;
+&lt;li&gt;Less functionality compared to &amp;ldquo;established&amp;rdquo; frameworks&lt;/li&gt;
+&lt;li&gt;No feedback while starting the server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;jodd&#34;&gt;Jodd&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;General impressions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation seems like wild goose chase&lt;/li&gt;
+&lt;li&gt;Gradle only&lt;/li&gt;
+&lt;li&gt;Seems elaborate&lt;/li&gt;
+&lt;li&gt;Complex&lt;/li&gt;
+&lt;li&gt;Light weight&lt;/li&gt;
+&lt;li&gt;You need a lot of Java experience to get an app up and running&lt;/li&gt;
+&lt;li&gt;Strange concepts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Many different components give the impression of flexibility&lt;/li&gt;
+&lt;li&gt;Light weight&lt;/li&gt;
+&lt;li&gt;Relatively little code needed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation seems incomplete for beginners&lt;/li&gt;
+&lt;li&gt;Little Documentation&lt;/li&gt;
+&lt;li&gt;Difficult to set up&lt;/li&gt;
+&lt;li&gt;Concepts are not always clear&lt;/li&gt;
+&lt;li&gt;Bad documentation&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
