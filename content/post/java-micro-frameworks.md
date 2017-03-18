@@ -71,3 +71,128 @@ however,
 and some discuss or link to quite large applications.
 
 ## Evaluation by Participants
+
+In total, nine people attended the workshop.
+Some of them worked as software engineers, some of them were students.
+Each of the participants had experience with software development in Java, but none of them had ever worked with the frameworks we tried.
+
+The participants noted the following general impressions, pros, and cons.
+You'll see that their findings don't always correspond with my own.
+I've copied the responses of the participants straight from the evaluation forms without rephrasing,
+to ensure that I didn't influence their answers.
+
+## Ninja
+
+**General impressions:**
+
+- Easy to set up
+- Simple
+- Mature
+- Very specific usage. Many choices made for you
+- Too predetermined
+
+**Pros:**
+
+- Good documentation
+- If you follow the intended path, you can have results quickly
+- Once you get the structure, it's easy to write a web app
+- Because many choices are made for you, once you read the getting-started guide, you're good to go
+- Uses regular HTML
+- If you use the default path, it's OK
+- Quick for default usage
+
+**Cons:**
+
+- Not easy to learn quickly
+- Router didn't work
+- Verbose
+- Pushes you to a predefined route
+- Very explicit workflow
+- Not easy to debug
+- Could not get it to work
+- Not a lot of documentation available online
+- Harder to get started
+
+## Spark
+
+**General impressions:**
+
+ - Not good
+ - Easy to get into
+ - Quick to get up and running
+ - Not bloated with features
+ - Clean
+ - Simple to use
+ - Light weight
+ - Customizable
+ - Fast
+ - Good
+
+**Pros:**
+
+- Easy to set up
+- Good documentation, tutorials, and samples
+- Lean
+- Flexible
+- Little overhead
+- It's easy to get started with a simple REST server
+- Simple setup and structure
+
+**Cons:**
+
+- Bad documentation
+- None
+- Much boilerplate needs to be written
+- Takes more than an hour to set something up
+
+## Pippo
+
+**General impressions:**
+
+- Documentation is immature and sometimes incorrect
+- Simple when it works
+- Pretty good documentation for such a small framework. Too bad some things were deprecated or abandoned
+- Simple
+- Accessible
+
+**Pros:**
+
+- Simplicity in general
+- Single jar for deployment
+- Runnable in IDE
+- Simple
+- Few dependencies
+- User friendly
+- Very easy
+
+**Cons:**
+
+- Documentation (incorrect, contains typos and grammatical mistakes)
+- Less functionality compared to "established" frameworks
+- No feedback while starting the server
+
+## Jodd
+
+**General impressions:**
+
+- Documentation seems like wild goose chase
+- Gradle only
+- Seems elaborate
+- Complex
+- Light weight
+- You need a lot of Java experience to get an app up and running
+- Strange concepts
+
+**Pros:**
+
+- Many different components give the impression of flexibility
+- Light weight
+- Relatively little code needed
+
+**Cons:**
+
+- Documentation seems incomplete for beginners
+- Little Documentation
+- Difficult to set up
+- Concepts are not always clear
+- Bad documentation
