@@ -1,4 +1,11 @@
 languageCode = "en-gb"
 title = "Luc Engelen"
-baseurl = "http://ljpengelen.github.io/"
-theme = "hugo_theme_robust"
+baseUrl = "https://ljpengelen.github.io/"
+theme = "februari-2017"
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+[params]
+  author = "Luc Engelen"
+  googleAnalyticsProperty = "UA-324041-10"
