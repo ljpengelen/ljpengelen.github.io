@@ -1,0 +1,4 @@
+{{ range (.Paginate .Data.Pages).Pages }}
+  {{ .Render "list_item" }}
+{{ end }}
+{{ partial "pagination.html" . }}

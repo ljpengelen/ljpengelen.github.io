@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/{{ index .Site.Data.css.hash "main.css" }}">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.BaseURL }}index.xml">
+    <title>
+      {{ if ne .URL "/" }}
+        {{ .Title }} -
+      {{ end }}
+      {{ .Site.Title }}
+    </title>
+    {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+  </head>
+  <body>
+    <header>
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </header>

@@ -1,0 +1,17 @@
+{
+  "name": "ljpengelen.github.io",
+  "version": "1.0.0",
+  "description": "Simple theme for Hugo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljpengelen/ljpengelen.github.io.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-hash": "^4.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
