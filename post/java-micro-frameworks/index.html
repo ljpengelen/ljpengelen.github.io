@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ljpengelen.github.io/css/main-647d69f4.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ljpengelen.github.io/index.xml">
+    <title>
+      
+        Java Micro Frameworks -
+      
+      Software and Volleyball
+    </title>
+    
+  </head>
+  <body>
+    <header class="main-header">
+      <h1><a href="https://ljpengelen.github.io/">Software and Volleyball</a></h1>
+    </header>
+
+<article>
+  <header>
+    <h1>Java Micro Frameworks</h1>
+  </header>
+  <section>
+    
+
+<p>A few weeks ago, I helped organize a <a href="https://www.meetup.com/Weert-Software-Development-Meetup/events/236607738/">Meetup</a> titled &ldquo;The Battle of the Java Micro Frameworks&rdquo; hosted at <a href="https://www.kabisa.nl">Kabisa</a> in Weert.
+I came across a number of Java micro frameworks before and wondered how they compared with popular frameworks such as <a href="https://spring.io/">Spring</a>.
+To be able to assess a number of these frameworks in a limited amount of time and in a nice environment,</p>
+
+<h2 id="the-meetup">The Meetup</h2>
+
+<p>The idea of the Meetup was to build a number of Twitter-clones in small groups using various micro frameworks,
+without any prior experience with any of the frameworks.
+Each group worked on a Twitter clone of their own for about an hour and afterwards continued working on the clone built by one of the other groups.</p>
+
+<p>Initially, we were going to look at the following frameworks:</p>
+
+<ul>
+<li><a href="http://jodd.org/">Jodd</a></li>
+<li><a href="http://jooby.org/">Jooby</a></li>
+<li><a href="http://www.ninjaframework.org/">Ninja</a></li>
+<li><a href="http://www.pippo.ro/">Pippo</a></li>
+<li><a href="http://britesnow.com/snow">Snow</a></li>
+<li><a href="http://sparkjava.com/">Spark</a></li>
+</ul>
+
+<p>Due to the limited number of participants,
+we had to drop a few frameworks.
+Without any other means to assess the frameworks without going into details,
+we dropped the ones that were less popular on <a href="https://github.com/">Github</a> and ended up looking at <a href="http://jodd.org/">Jodd</a>, <a href="http://www.ninjaframework.org/">Ninja</a>, <a href="http://www.pippo.ro/">Pippo</a>, and <a href="http://sparkjava.com/">Spark</a>.</p>
+
+<h2 id="preparation">Preparation</h2>
+
+<p>In an attempt to give the groups a small head start,
+I tried to set up a few minimal apps for each of the frameworks.
+Doing so already highlighted some differences between the frameworks;
+some seemed to be more &ldquo;micro&rdquo; than others.</p>
+
+<p>Setting up a small app for Jooby, Spark, and Pippo turned out to be really straightforward.
+The end results are available on Github:</p>
+
+<ul>
+<li><a href="https://github.com/ljpengelen/battle-jooby">https://github.com/ljpengelen/battle-jooby</a></li>
+<li><a href="https://github.com/ljpengelen/battle-spark/tree/61de9c95461dfedb7cda7c03d3dada3c89fd4ef6">https://github.com/ljpengelen/battle-spark/tree/61de9c95461dfedb7cda7c03d3dada3c89fd4ef6</a></li>
+<li><a href="https://github.com/ljpengelen/battle-pippo/tree/a1b5339c99068d3fce0959fae31438a61cf04bc6">https://github.com/ljpengelen/battle-pippo/tree/a1b5339c99068d3fce0959fae31438a61cf04bc6</a></li>
+</ul>
+
+<p>For each of these frameworks,
+a small <code>pom.xml</code> and a few lines of Java were enough to get started.</p>
+
+<p>In the limited time I had available, setting up a small app with only a few lines of code for Ninja and Jodd turned out to be too much to ask.
+The participants that worked with these two frameworks seem to have ended up running into the same problem I had and used rather large example applications as starting points:</p>
+
+<ul>
+<li><a href="https://github.com/ljpengelen/battle-jodd">https://github.com/ljpengelen/battle-jodd</a></li>
+<li><a href="https://github.com/ljpengelen/battle-ninja">https://github.com/ljpengelen/battle-ninja</a></li>
+</ul>
+
+<p>For Ninja,
+setting up an app to get started is only a matter of executing a single command:</p>
+
+<pre><code>mvn archetype:generate -DarchetypeGroupId=org.ninjaframework -DarchetypeArtifactId=ninja-servlet-archetype-simple
+</code></pre>
+
+<p>The end result itself is not &ldquo;micro&rdquo;, but at least it&rsquo;s <a href="http://www.ninjaframework.org/documentation/getting_started/create_your_first_application.html">clearly documented</a> how to get started.</p>
+
+<p>For Jodd,
+the situation is a little different.
+The main page of <a href="http://jodd.org/doc/">Jodd&rsquo;s documentation</a> links to pages named <a href="http://jodd.org/about">About Jodd</a>, <a href="http://oblac.github.io/jodd">Jodd overview in 5 minutes</a>, <a href="http://joddframework.org/">Jodd micro-frameworks in 30 minutes</a>, <a href="http://jodd.org/doc/quickstart/index.html">Quickstart &raquo; instant run</a>, and <a href="http://jodd.org/doc/example/index.html">Web app example &raquo; step-by-step</a>.
+For someone looking at Jodd for the first time,
+each of these pages look like they could describe how to set up a small app with Jodd.
+Some of them describe Jodd&rsquo;s features,
+however,
+and some discuss or link to quite large applications.</p>
+
+<h2 id="evaluation-by-participants">Evaluation by Participants</h2>
+
+  </section>
+</article>
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-324041-10', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+  </body>
+</html>
+
