@@ -196,7 +196,7 @@ to ensure that I didn't influence their answers.
 **Cons:**
 
 - Documentation seems incomplete for beginners
-- Little Documentation
+- Little documentation
 - Difficult to set up
 - Concepts are not always clear
 - Bad documentation
