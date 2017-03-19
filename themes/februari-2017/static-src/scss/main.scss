@@ -11,6 +11,7 @@ body {
   line-height: 1.5;
   max-width: 35rem;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 h1 {
@@ -27,6 +28,7 @@ p, ul {
 }
 
 ul {
+  margin-left: 2rem;
   list-style: disc outside;
 }
 
