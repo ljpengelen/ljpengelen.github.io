@@ -11,6 +11,8 @@ I came across a number of Java micro frameworks before and wondered how they com
 To be able to assess a number of these frameworks in a limited amount of time and in a nice environment,
 I tried to get more people involved in the evaluation process by organizing a Meetup.
 
+<!--more-->
+
 ## The Meetup
 
 The idea of the Meetup was to build a number of Twitter-clones in small groups using various micro frameworks,
