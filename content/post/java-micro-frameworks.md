@@ -5,9 +5,11 @@ title = "Java Micro Frameworks"
 author = "Luc Engelen"
 +++
 
-A few weeks ago, I helped organize a [Meetup](https://www.meetup.com/Weert-Software-Development-Meetup/events/236607738/) titled "The Battle of the Java Micro Frameworks" hosted at [Kabisa](https://www.kabisa.nl) in Weert.
+A few weeks ago,
+I helped organize a [Meetup](https://www.meetup.com/Weert-Software-Development-Meetup/events/236607738/) titled "The Battle of the Java Micro Frameworks" hosted at [Kabisa](https://www.kabisa.nl) in Weert.
 I came across a number of Java micro frameworks before and wondered how they compared with popular frameworks such as [Spring](https://spring.io/).
 To be able to assess a number of these frameworks in a limited amount of time and in a nice environment,
+I tried to get more people involved in the evaluation process by organizing a Meetup.
 
 ## The Meetup
 
