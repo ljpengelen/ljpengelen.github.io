@@ -7,7 +7,10 @@ author = "Luc Engelen"
 
 For a [Java Meetup in Eindhoven](https://www.meetup.com/Eindhoven-Java-Meetup/events/233789984/),
 I presented a small example application that demonstrates the use of [JSON Web Tokens](https://jwt.io/) (JWTs) for a single-page application.
-The code for this application is available on [Github](https://github.com):
+
+<!--more-->
+
+The code for this application is available on [Github](https://github.com), for those who want to see all the details:
 
 - [Front end](https://github.com/ljpengelen/java-meetup-front-end)
 - [Session-based back end](https://github.com/ljpengelen/java-meetup-session)
