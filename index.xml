@@ -241,19 +241,5 @@ to ensure that I didn&amp;rsquo;t influence their answers.&lt;/p&gt;
 &lt;/ul&gt;</description>
     </item>
     
-    <item>
-      <title>Hugo</title>
-      <link>https://ljpengelen.github.io/post/hugo/</link>
-      <pubDate>Sat, 18 Mar 2017 16:40:00 +0100</pubDate>
-      
-      <guid>https://ljpengelen.github.io/post/hugo/</guid>
-      <description>&lt;p&gt;This blog is generated with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a static site generator.
-Although a number of &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;really good looking themes&lt;/a&gt; for Hugo exist,
-I&amp;rsquo;ve decided to do things the hard way and start from scratch with a custom theme of my own.
-It might take some time before this site looks good&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
